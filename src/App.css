@@ -1,5 +1,48 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin:auto;
+}
+.box {
+  text-align: center;
+  font-size: 22px;
+  font-weight:bold;
+  margin: auto;
+  margin-top: 80px;
+}
+.square {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 1px;
+  border-color:blue;
+}
+.blank{
+  background-color: black;
+}
+.top {
+  top: 0;
+}
+.left {
+  left: 0;
+}
+.middle {
+  left: 200px;
+}
+.right {
+  left: 400px;
+}
+.middle-row {
+  top: 200px;
+}
+.middle-col {
+  left: 200px;
+}
+.bottom{
+  top:400px;
 }
 
 .App-logo {
